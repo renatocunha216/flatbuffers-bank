@@ -63,7 +63,7 @@ public class BankTransactionWriter {
         banks.add(new Bank(1, "Banco do Brasil"));
         banks.add(new Bank(4041, "Banrisul"));
         banks.add(new Bank(5237, "Bradesco"));
-        banks.add(new Bank(1, "Citibank"));
+        banks.add(new Bank(745, "Citibank"));
         banks.add(new Bank(4048, "Itaú"));
         banks.add(new Bank(7376, "J.P. Morgan S.A."));
         banks.add(new Bank(260, "Nubank"));
@@ -311,7 +311,7 @@ public class BankTransactionWriter {
 
         DEBUG = false;
 
-        final int TOTAL = 100000;
+        final int TOTAL = 10_000;
 
         System.out.println("Start test.");
 
