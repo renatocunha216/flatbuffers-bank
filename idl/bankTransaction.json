@@ -1,32 +1,34 @@
 {
-  transactions: [
+  "transactions": [
     {
-      transfer_date: {
-        day: 1,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 0,
-        second: 0
+      "transfer_date": {
+        "day": 1,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
+      "source_bank_account": {
+        "account_number": 0,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 1,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 1,
+        "check_digit": 1
       },
-      fee_amount: 4.83,
-      amount_transfer: 429584.25,
-      authentication_code: {
-        value: [
+      "fee_amount": 4.83,
+      "amount_transfer": 429584.25,
+      "authentication_code": {
+        "value": [
           41,
           67,
           8,
@@ -47,34 +49,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 2,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 1,
-        second: 1
+      "transfer_date": {
+        "day": 2,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 1,
+        "second": 1
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 1,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 1,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 2,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 2,
+        "check_digit": 3
       },
-      fee_amount: 78.68,
-      amount_transfer: 269104.659999999974,
-      authentication_code: {
-        value: [
+      "fee_amount": 78.68,
+      "amount_transfer": 269104.659999999974,
+      "authentication_code": {
+        "value": [
           -17,
           26,
           -123,
@@ -95,34 +97,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 3,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 2,
-        second: 2
+      "transfer_date": {
+        "day": 3,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 2,
+        "second": 2
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 2,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 2,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 3,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 3,
+        "check_digit": 5
       },
-      fee_amount: 11.98,
-      amount_transfer: 641607.270000000019,
-      authentication_code: {
-        value: [
+      "fee_amount": 11.98,
+      "amount_transfer": 641607.270000000019,
+      "authentication_code": {
+        "value": [
           20,
           -101,
           -99,
@@ -143,34 +145,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 4,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 3,
-        second: 3
+      "transfer_date": {
+        "day": 4,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 3,
+        "second": 3
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 3,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 3,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 4,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 4,
+        "check_digit": 7
       },
-      fee_amount: 67.459999,
-      amount_transfer: 676876.810000000056,
-      authentication_code: {
-        value: [
+      "fee_amount": 67.459999,
+      "amount_transfer": 676876.810000000056,
+      "authentication_code": {
+        "value": [
           5,
           -29,
           -91,
@@ -191,34 +193,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 5,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 4,
-        second: 4
+      "transfer_date": {
+        "day": 5,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 4,
+        "second": 4
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 4,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 4,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 5,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 5,
+        "check_digit": 9
       },
-      fee_amount: 19.700001,
-      amount_transfer: 302933.950000000012,
-      authentication_code: {
-        value: [
+      "fee_amount": 19.700001,
+      "amount_transfer": 302933.950000000012,
+      "authentication_code": {
+        "value": [
           -121,
           -95,
           20,
@@ -239,33 +241,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 6,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 5,
-        second: 5
+      "transfer_date": {
+        "day": 6,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 5,
+        "second": 5
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 5
+      "source_bank_account": {
+        "account_number": 5,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 6,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 6,
+        "check_digit": 1
       },
-      fee_amount: 41.099998,
-      amount_transfer: 976811.359999999986,
-      authentication_code: {
-        value: [
+      "fee_amount": 41.099998,
+      "amount_transfer": 976811.359999999986,
+      "authentication_code": {
+        "value": [
           -19,
           -6,
           -67,
@@ -286,34 +289,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 7,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 6,
-        second: 6
+      "transfer_date": {
+        "day": 7,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 6,
+        "second": 6
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 6,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 6,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 7,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 7,
+        "check_digit": 3
       },
-      fee_amount: 47.650002,
-      amount_transfer: 527964.380000000005,
-      authentication_code: {
-        value: [
+      "fee_amount": 47.650002,
+      "amount_transfer": 527964.380000000005,
+      "authentication_code": {
+        "value": [
           53,
           57,
           66,
@@ -334,34 +337,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 8,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 7,
-        second: 7
+      "transfer_date": {
+        "day": 8,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 7,
+        "second": 7
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 7,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 7,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 8,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 8,
+        "check_digit": 5
       },
-      fee_amount: 82.190002,
-      amount_transfer: 13273.43,
-      authentication_code: {
-        value: [
+      "fee_amount": 82.190002,
+      "amount_transfer": 13273.43,
+      "authentication_code": {
+        "value": [
           -55,
           120,
           12,
@@ -382,34 +385,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 9,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 8,
-        second: 8
+      "transfer_date": {
+        "day": 9,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 8,
+        "second": 8
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 8,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 8,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 9,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 9,
+        "check_digit": 7
       },
-      fee_amount: 16.93,
-      amount_transfer: 625277.109999999986,
-      authentication_code: {
-        value: [
+      "fee_amount": 16.93,
+      "amount_transfer": 625277.109999999986,
+      "authentication_code": {
+        "value": [
           -68,
           -13,
           -44,
@@ -430,34 +433,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 10,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 9,
-        second: 9
+      "transfer_date": {
+        "day": 10,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 9,
+        "second": 9
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 9,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 9,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 10,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 10,
+        "check_digit": 9
       },
-      fee_amount: 91.230003,
-      amount_transfer: 522723.849999999977,
-      authentication_code: {
-        value: [
+      "fee_amount": 91.230003,
+      "amount_transfer": 522723.849999999977,
+      "authentication_code": {
+        "value": [
           -23,
           -93,
           2,
@@ -478,33 +481,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 11,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 10,
-        second: 10
+      "transfer_date": {
+        "day": 11,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 10,
+        "second": 10
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 10
+      "source_bank_account": {
+        "account_number": 10,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 11,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 11,
+        "check_digit": 1
       },
-      fee_amount: 35.400002,
-      amount_transfer: 491339.669999999984,
-      authentication_code: {
-        value: [
+      "fee_amount": 35.400002,
+      "amount_transfer": 491339.669999999984,
+      "authentication_code": {
+        "value": [
           -96,
           -103,
           45,
@@ -525,34 +529,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 12,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 11,
-        second: 11
+      "transfer_date": {
+        "day": 12,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 11,
+        "second": 11
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 11,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 11,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 12,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 12,
+        "check_digit": 3
       },
-      fee_amount: 16.129999,
-      amount_transfer: 373721.75,
-      authentication_code: {
-        value: [
+      "fee_amount": 16.129999,
+      "amount_transfer": 373721.75,
+      "authentication_code": {
+        "value": [
           -60,
           33,
           -16,
@@ -573,34 +577,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 13,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 12,
-        second: 12
+      "transfer_date": {
+        "day": 13,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 12,
+        "second": 12
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 12,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 12,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 13,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 13,
+        "check_digit": 5
       },
-      fee_amount: 7.24,
-      amount_transfer: 716610.410000000033,
-      authentication_code: {
-        value: [
+      "fee_amount": 7.24,
+      "amount_transfer": 716610.410000000033,
+      "authentication_code": {
+        "value": [
           38,
           -58,
           73,
@@ -621,34 +625,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 14,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 13,
-        second: 13
+      "transfer_date": {
+        "day": 14,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 13,
+        "second": 13
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 13,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 13,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 14,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 14,
+        "check_digit": 7
       },
-      fee_amount: 62.84,
-      amount_transfer: 648141.5,
-      authentication_code: {
-        value: [
+      "fee_amount": 62.84,
+      "amount_transfer": 648141.5,
+      "authentication_code": {
+        "value": [
           111,
           11,
           -106,
@@ -669,34 +673,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 15,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 14,
-        second: 14
+      "transfer_date": {
+        "day": 15,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 14,
+        "second": 14
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 14,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 14,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 15,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 15,
+        "check_digit": 9
       },
-      fee_amount: 81.870003,
-      amount_transfer: 237653.839999999997,
-      authentication_code: {
-        value: [
+      "fee_amount": 81.870003,
+      "amount_transfer": 237653.839999999997,
+      "authentication_code": {
+        "value": [
           -50,
           -21,
           -30,
@@ -717,33 +721,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 16,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 15,
-        second: 15
+      "transfer_date": {
+        "day": 16,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 15,
+        "second": 15
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 15
+      "source_bank_account": {
+        "account_number": 15,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 16,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 16,
+        "check_digit": 1
       },
-      fee_amount: 40.400002,
-      amount_transfer: 104920.270000000004,
-      authentication_code: {
-        value: [
+      "fee_amount": 40.400002,
+      "amount_transfer": 104920.270000000004,
+      "authentication_code": {
+        "value": [
           25,
           -124,
           18,
@@ -764,34 +769,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 17,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 16,
-        second: 16
+      "transfer_date": {
+        "day": 17,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 16,
+        "second": 16
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 16,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 16,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 17,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 17,
+        "check_digit": 3
       },
-      fee_amount: 7.94,
-      amount_transfer: 500004.140000000014,
-      authentication_code: {
-        value: [
+      "fee_amount": 7.94,
+      "amount_transfer": 500004.140000000014,
+      "authentication_code": {
+        "value": [
           114,
           93,
           -55,
@@ -812,34 +817,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 18,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 17,
-        second: 17
+      "transfer_date": {
+        "day": 18,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 17,
+        "second": 17
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 17,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 17,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 18,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 18,
+        "check_digit": 5
       },
-      fee_amount: 76.660004,
-      amount_transfer: 657698.239999999991,
-      authentication_code: {
-        value: [
+      "fee_amount": 76.660004,
+      "amount_transfer": 657698.239999999991,
+      "authentication_code": {
+        "value": [
           76,
           -45,
           126,
@@ -860,34 +865,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 19,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 18,
-        second: 18
+      "transfer_date": {
+        "day": 19,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 18,
+        "second": 18
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 18,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 18,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 19,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 19,
+        "check_digit": 7
       },
-      fee_amount: 82.57,
-      amount_transfer: 644878.010000000009,
-      authentication_code: {
-        value: [
+      "fee_amount": 82.57,
+      "amount_transfer": 644878.010000000009,
+      "authentication_code": {
+        "value": [
           -51,
           -22,
           -66,
@@ -908,34 +913,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 20,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 19,
-        second: 19
+      "transfer_date": {
+        "day": 20,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 19,
+        "second": 19
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 19,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 19,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 20,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 20,
+        "check_digit": 9
       },
-      fee_amount: 63.990002,
-      amount_transfer: 380578.0,
-      authentication_code: {
-        value: [
+      "fee_amount": 63.990002,
+      "amount_transfer": 380578.0,
+      "authentication_code": {
+        "value": [
           113,
           -91,
           -78,
@@ -956,33 +961,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 21,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 20,
-        second: 20
+      "transfer_date": {
+        "day": 21,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 20,
+        "second": 20
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 20
+      "source_bank_account": {
+        "account_number": 20,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 21,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 21,
+        "check_digit": 1
       },
-      fee_amount: 14.23,
-      amount_transfer: 51056.32,
-      authentication_code: {
-        value: [
+      "fee_amount": 14.23,
+      "amount_transfer": 51056.32,
+      "authentication_code": {
+        "value": [
           71,
           10,
           -86,
@@ -1003,34 +1009,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 22,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 21,
-        second: 21
+      "transfer_date": {
+        "day": 22,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 21,
+        "second": 21
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 21,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 21,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 22,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 22,
+        "check_digit": 3
       },
-      fee_amount: 30.02,
-      amount_transfer: 853374.520000000019,
-      authentication_code: {
-        value: [
+      "fee_amount": 30.02,
+      "amount_transfer": 853374.520000000019,
+      "authentication_code": {
+        "value": [
           50,
           15,
           89,
@@ -1051,34 +1057,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 23,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 22,
-        second: 22
+      "transfer_date": {
+        "day": 23,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 22,
+        "second": 22
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 22,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 22,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 23,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 23,
+        "check_digit": 5
       },
-      fee_amount: 85.650002,
-      amount_transfer: 957658.130000000005,
-      authentication_code: {
-        value: [
+      "fee_amount": 85.650002,
+      "amount_transfer": 957658.130000000005,
+      "authentication_code": {
+        "value": [
           -58,
           -115,
           78,
@@ -1099,34 +1105,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 24,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 23,
-        second: 23
+      "transfer_date": {
+        "day": 24,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 23,
+        "second": 23
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 23,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 23,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 24,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 24,
+        "check_digit": 7
       },
-      fee_amount: 51.650002,
-      amount_transfer: 696618.510000000009,
-      authentication_code: {
-        value: [
+      "fee_amount": 51.650002,
+      "amount_transfer": 696618.510000000009,
+      "authentication_code": {
+        "value": [
           -25,
           73,
           83,
@@ -1147,34 +1153,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 25,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 24,
-        second: 24
+      "transfer_date": {
+        "day": 25,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 24,
+        "second": 24
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 24,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 24,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 25,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 25,
+        "check_digit": 9
       },
-      fee_amount: 62.59,
-      amount_transfer: 67877.270000000004,
-      authentication_code: {
-        value: [
+      "fee_amount": 62.59,
+      "amount_transfer": 67877.270000000004,
+      "authentication_code": {
+        "value": [
           99,
           83,
           49,
@@ -1195,33 +1201,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 26,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 25,
-        second: 25
+      "transfer_date": {
+        "day": 26,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 25,
+        "second": 25
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 25
+      "source_bank_account": {
+        "account_number": 25,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 26,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 26,
+        "check_digit": 1
       },
-      fee_amount: 91.330002,
-      amount_transfer: 824126.739999999991,
-      authentication_code: {
-        value: [
+      "fee_amount": 91.330002,
+      "amount_transfer": 824126.739999999991,
+      "authentication_code": {
+        "value": [
           -104,
           -118,
           16,
@@ -1242,34 +1249,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 27,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 26,
-        second: 26
+      "transfer_date": {
+        "day": 27,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 26,
+        "second": 26
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 26,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 26,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 27,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 27,
+        "check_digit": 3
       },
-      fee_amount: 39.389999,
-      amount_transfer: 654816.180000000051,
-      authentication_code: {
-        value: [
+      "fee_amount": 39.389999,
+      "amount_transfer": 654816.180000000051,
+      "authentication_code": {
+        "value": [
           42,
           28,
           -27,
@@ -1290,34 +1297,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 28,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 27,
-        second: 27
+      "transfer_date": {
+        "day": 28,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 27,
+        "second": 27
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 27,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 27,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 28,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 28,
+        "check_digit": 5
       },
-      fee_amount: 12.71,
-      amount_transfer: 533276.380000000005,
-      authentication_code: {
-        value: [
+      "fee_amount": 12.71,
+      "amount_transfer": 533276.380000000005,
+      "authentication_code": {
+        "value": [
           -112,
           103,
           100,
@@ -1338,34 +1345,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 29,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 28,
-        second: 28
+      "transfer_date": {
+        "day": 29,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 28,
+        "second": 28
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 28,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 28,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 29,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 29,
+        "check_digit": 7
       },
-      fee_amount: 20.41,
-      amount_transfer: 687665.660000000033,
-      authentication_code: {
-        value: [
+      "fee_amount": 20.41,
+      "amount_transfer": 687665.660000000033,
+      "authentication_code": {
+        "value": [
           56,
           -16,
           -7,
@@ -1386,34 +1393,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 30,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 29,
-        second: 29
+      "transfer_date": {
+        "day": 30,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 29,
+        "second": 29
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 29,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 29,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 30,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 30,
+        "check_digit": 9
       },
-      fee_amount: 14.85,
-      amount_transfer: 729481.310000000056,
-      authentication_code: {
-        value: [
+      "fee_amount": 14.85,
+      "amount_transfer": 729481.310000000056,
+      "authentication_code": {
+        "value": [
           -66,
           -108,
           -5,
@@ -1434,33 +1441,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 31,
-        month: 1,
-        year: 2023,
-        hour: 0,
-        minute: 30,
-        second: 30
+      "transfer_date": {
+        "day": 31,
+        "month": 1,
+        "year": 2023,
+        "hour": 0,
+        "minute": 30,
+        "second": 30
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 30
+      "source_bank_account": {
+        "account_number": 30,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 31,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 31,
+        "check_digit": 1
       },
-      fee_amount: 54.880001,
-      amount_transfer: 467300.570000000007,
-      authentication_code: {
-        value: [
+      "fee_amount": 54.880001,
+      "amount_transfer": 467300.570000000007,
+      "authentication_code": {
+        "value": [
           102,
           -46,
           87,
@@ -1481,34 +1489,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 1,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 31,
-        second: 31
+      "transfer_date": {
+        "day": 1,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 31,
+        "second": 31
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 31,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 31,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 32,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 32,
+        "check_digit": 3
       },
-      fee_amount: 11.48,
-      amount_transfer: 818351.260000000009,
-      authentication_code: {
-        value: [
+      "fee_amount": 11.48,
+      "amount_transfer": 818351.260000000009,
+      "authentication_code": {
+        "value": [
           -82,
           40,
           -115,
@@ -1529,34 +1537,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 2,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 32,
-        second: 32
+      "transfer_date": {
+        "day": 2,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 32,
+        "second": 32
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 32,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 32,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 33,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 33,
+        "check_digit": 5
       },
-      fee_amount: 89.809998,
-      amount_transfer: 140986.149999999994,
-      authentication_code: {
-        value: [
+      "fee_amount": 89.809998,
+      "amount_transfer": 140986.149999999994,
+      "authentication_code": {
+        "value": [
           -56,
           33,
           4,
@@ -1577,34 +1585,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 3,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 33,
-        second: 33
+      "transfer_date": {
+        "day": 3,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 33,
+        "second": 33
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 33,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 33,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 34,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 34,
+        "check_digit": 7
       },
-      fee_amount: 54.529999,
-      amount_transfer: 798155.880000000005,
-      authentication_code: {
-        value: [
+      "fee_amount": 54.529999,
+      "amount_transfer": 798155.880000000005,
+      "authentication_code": {
+        "value": [
           44,
           75,
           27,
@@ -1625,34 +1633,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 4,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 34,
-        second: 34
+      "transfer_date": {
+        "day": 4,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 34,
+        "second": 34
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 34,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 34,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 35,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 35,
+        "check_digit": 9
       },
-      fee_amount: 36.369999,
-      amount_transfer: 194277.190000000002,
-      authentication_code: {
-        value: [
+      "fee_amount": 36.369999,
+      "amount_transfer": 194277.190000000002,
+      "authentication_code": {
+        "value": [
           87,
           -99,
           -99,
@@ -1673,33 +1681,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 5,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 35,
-        second: 35
+      "transfer_date": {
+        "day": 5,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 35,
+        "second": 35
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 35
+      "source_bank_account": {
+        "account_number": 35,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 36,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 36,
+        "check_digit": 1
       },
-      fee_amount: 36.27,
-      amount_transfer: 518604.200000000012,
-      authentication_code: {
-        value: [
+      "fee_amount": 36.27,
+      "amount_transfer": 518604.200000000012,
+      "authentication_code": {
+        "value": [
           -14,
           -11,
           -29,
@@ -1720,34 +1729,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 6,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 36,
-        second: 36
+      "transfer_date": {
+        "day": 6,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 36,
+        "second": 36
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 36,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 36,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 37,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 37,
+        "check_digit": 3
       },
-      fee_amount: 7.92,
-      amount_transfer: 976333.349999999977,
-      authentication_code: {
-        value: [
+      "fee_amount": 7.92,
+      "amount_transfer": 976333.349999999977,
+      "authentication_code": {
+        "value": [
           -104,
           -11,
           -118,
@@ -1768,34 +1777,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 7,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 37,
-        second: 37
+      "transfer_date": {
+        "day": 7,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 37,
+        "second": 37
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 37,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 37,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 38,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 38,
+        "check_digit": 5
       },
-      fee_amount: 78.620003,
-      amount_transfer: 4871.77,
-      authentication_code: {
-        value: [
+      "fee_amount": 78.620003,
+      "amount_transfer": 4871.77,
+      "authentication_code": {
+        "value": [
           34,
           -45,
           122,
@@ -1816,34 +1825,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 8,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 38,
-        second: 38
+      "transfer_date": {
+        "day": 8,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 38,
+        "second": 38
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 38,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 38,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 39,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 39,
+        "check_digit": 7
       },
-      fee_amount: 59.740002,
-      amount_transfer: 498270.309999999998,
-      authentication_code: {
-        value: [
+      "fee_amount": 59.740002,
+      "amount_transfer": 498270.309999999998,
+      "authentication_code": {
+        "value": [
           84,
           97,
           115,
@@ -1864,34 +1873,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 9,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 39,
-        second: 39
+      "transfer_date": {
+        "day": 9,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 39,
+        "second": 39
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 39,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 39,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 40,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 40,
+        "check_digit": 9
       },
-      fee_amount: 3.38,
-      amount_transfer: 110267.679999999993,
-      authentication_code: {
-        value: [
+      "fee_amount": 3.38,
+      "amount_transfer": 110267.679999999993,
+      "authentication_code": {
+        "value": [
           122,
           -105,
           -67,
@@ -1912,33 +1921,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 10,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 40,
-        second: 40
+      "transfer_date": {
+        "day": 10,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 40,
+        "second": 40
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 40
+      "source_bank_account": {
+        "account_number": 40,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 41,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 41,
+        "check_digit": 1
       },
-      fee_amount: 24.41,
-      amount_transfer: 836302.949999999953,
-      authentication_code: {
-        value: [
+      "fee_amount": 24.41,
+      "amount_transfer": 836302.949999999953,
+      "authentication_code": {
+        "value": [
           90,
           30,
           56,
@@ -1959,34 +1969,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 11,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 41,
-        second: 41
+      "transfer_date": {
+        "day": 11,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 41,
+        "second": 41
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 41,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 41,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 42,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 42,
+        "check_digit": 3
       },
-      fee_amount: 24.16,
-      amount_transfer: 762144.550000000047,
-      authentication_code: {
-        value: [
+      "fee_amount": 24.16,
+      "amount_transfer": 762144.550000000047,
+      "authentication_code": {
+        "value": [
           111,
           -38,
           -81,
@@ -2007,34 +2017,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 12,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 42,
-        second: 42
+      "transfer_date": {
+        "day": 12,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 42,
+        "second": 42
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 42,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 42,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 43,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 43,
+        "check_digit": 5
       },
-      fee_amount: 15.01,
-      amount_transfer: 853426.979999999981,
-      authentication_code: {
-        value: [
+      "fee_amount": 15.01,
+      "amount_transfer": 853426.979999999981,
+      "authentication_code": {
+        "value": [
           -82,
           5,
           -2,
@@ -2055,34 +2065,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 13,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 43,
-        second: 43
+      "transfer_date": {
+        "day": 13,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 43,
+        "second": 43
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 43,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 43,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 44,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 44,
+        "check_digit": 7
       },
-      fee_amount: 79.900002,
-      amount_transfer: 180016.299999999988,
-      authentication_code: {
-        value: [
+      "fee_amount": 79.900002,
+      "amount_transfer": 180016.299999999988,
+      "authentication_code": {
+        "value": [
           32,
           77,
           48,
@@ -2103,34 +2113,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 14,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 44,
-        second: 44
+      "transfer_date": {
+        "day": 14,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 44,
+        "second": 44
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 44,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 44,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 45,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 45,
+        "check_digit": 9
       },
-      fee_amount: 26.440001,
-      amount_transfer: 495174.75,
-      authentication_code: {
-        value: [
+      "fee_amount": 26.440001,
+      "amount_transfer": 495174.75,
+      "authentication_code": {
+        "value": [
           16,
           89,
           77,
@@ -2151,33 +2161,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 15,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 45,
-        second: 45
+      "transfer_date": {
+        "day": 15,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 45,
+        "second": 45
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 45
+      "source_bank_account": {
+        "account_number": 45,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 46,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 46,
+        "check_digit": 1
       },
-      fee_amount: 74.580002,
-      amount_transfer: 5339.13,
-      authentication_code: {
-        value: [
+      "fee_amount": 74.580002,
+      "amount_transfer": 5339.13,
+      "authentication_code": {
+        "value": [
           63,
           40,
           -61,
@@ -2198,34 +2209,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 16,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 46,
-        second: 46
+      "transfer_date": {
+        "day": 16,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 46,
+        "second": 46
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 46,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 46,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 47,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 47,
+        "check_digit": 3
       },
-      fee_amount: 35.610001,
-      amount_transfer: 693396.310000000056,
-      authentication_code: {
-        value: [
+      "fee_amount": 35.610001,
+      "amount_transfer": 693396.310000000056,
+      "authentication_code": {
+        "value": [
           -94,
           -47,
           -83,
@@ -2246,34 +2257,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 17,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 47,
-        second: 47
+      "transfer_date": {
+        "day": 17,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 47,
+        "second": 47
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 47,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 47,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 48,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 48,
+        "check_digit": 5
       },
-      fee_amount: 58.48,
-      amount_transfer: 972778.170000000042,
-      authentication_code: {
-        value: [
+      "fee_amount": 58.48,
+      "amount_transfer": 972778.170000000042,
+      "authentication_code": {
+        "value": [
           49,
           15,
           105,
@@ -2294,34 +2305,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 18,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 48,
-        second: 48
+      "transfer_date": {
+        "day": 18,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 48,
+        "second": 48
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 48,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 48,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 49,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 49,
+        "check_digit": 7
       },
-      fee_amount: 1.67,
-      amount_transfer: 647161.400000000023,
-      authentication_code: {
-        value: [
+      "fee_amount": 1.67,
+      "amount_transfer": 647161.400000000023,
+      "authentication_code": {
+        "value": [
           114,
           -22,
           60,
@@ -2342,34 +2353,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 19,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 49,
-        second: 49
+      "transfer_date": {
+        "day": 19,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 49,
+        "second": 49
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 49,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 49,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 50,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 50,
+        "check_digit": 9
       },
-      fee_amount: 44.799999,
-      amount_transfer: 339969.710000000021,
-      authentication_code: {
-        value: [
+      "fee_amount": 44.799999,
+      "amount_transfer": 339969.710000000021,
+      "authentication_code": {
+        "value": [
           98,
           109,
           15,
@@ -2390,33 +2401,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 20,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 50,
-        second: 50
+      "transfer_date": {
+        "day": 20,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 50,
+        "second": 50
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 50
+      "source_bank_account": {
+        "account_number": 50,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 51,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 51,
+        "check_digit": 1
       },
-      fee_amount: 90.639999,
-      amount_transfer: 834269.869999999995,
-      authentication_code: {
-        value: [
+      "fee_amount": 90.639999,
+      "amount_transfer": 834269.869999999995,
+      "authentication_code": {
+        "value": [
           91,
           -93,
           95,
@@ -2437,34 +2449,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 21,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 51,
-        second: 51
+      "transfer_date": {
+        "day": 21,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 51,
+        "second": 51
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 51,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 51,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 52,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 52,
+        "check_digit": 3
       },
-      fee_amount: 99.190002,
-      amount_transfer: 289578.799999999988,
-      authentication_code: {
-        value: [
+      "fee_amount": 99.190002,
+      "amount_transfer": 289578.799999999988,
+      "authentication_code": {
+        "value": [
           86,
           -95,
           -71,
@@ -2485,34 +2497,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 22,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 52,
-        second: 52
+      "transfer_date": {
+        "day": 22,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 52,
+        "second": 52
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 52,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 52,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 53,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 53,
+        "check_digit": 5
       },
-      fee_amount: 81.260002,
-      amount_transfer: 591576.140000000014,
-      authentication_code: {
-        value: [
+      "fee_amount": 81.260002,
+      "amount_transfer": 591576.140000000014,
+      "authentication_code": {
+        "value": [
           104,
           -34,
           84,
@@ -2533,34 +2545,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 23,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 53,
-        second: 53
+      "transfer_date": {
+        "day": 23,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 53,
+        "second": 53
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 53,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 53,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 54,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 54,
+        "check_digit": 7
       },
-      fee_amount: 74.25,
-      amount_transfer: 857512.339999999967,
-      authentication_code: {
-        value: [
+      "fee_amount": 74.25,
+      "amount_transfer": 857512.339999999967,
+      "authentication_code": {
+        "value": [
           -114,
           -67,
           -114,
@@ -2581,34 +2593,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 24,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 54,
-        second: 54
+      "transfer_date": {
+        "day": 24,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 54,
+        "second": 54
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 54,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 54,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 55,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 55,
+        "check_digit": 9
       },
-      fee_amount: 26.030001,
-      amount_transfer: 585969.270000000019,
-      authentication_code: {
-        value: [
+      "fee_amount": 26.030001,
+      "amount_transfer": 585969.270000000019,
+      "authentication_code": {
+        "value": [
           -64,
           4,
           -34,
@@ -2629,33 +2641,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 25,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 55,
-        second: 55
+      "transfer_date": {
+        "day": 25,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 55,
+        "second": 55
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 55
+      "source_bank_account": {
+        "account_number": 55,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 56,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 56,
+        "check_digit": 1
       },
-      fee_amount: 73.599998,
-      amount_transfer: 803284.109999999986,
-      authentication_code: {
-        value: [
+      "fee_amount": 73.599998,
+      "amount_transfer": 803284.109999999986,
+      "authentication_code": {
+        "value": [
           58,
           -21,
           -34,
@@ -2676,34 +2689,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 26,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 56,
-        second: 56
+      "transfer_date": {
+        "day": 26,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 56,
+        "second": 56
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 56,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 56,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 57,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 57,
+        "check_digit": 3
       },
-      fee_amount: 84.980003,
-      amount_transfer: 843620.75,
-      authentication_code: {
-        value: [
+      "fee_amount": 84.980003,
+      "amount_transfer": 843620.75,
+      "authentication_code": {
+        "value": [
           -124,
           43,
           -39,
@@ -2724,34 +2737,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 27,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 57,
-        second: 57
+      "transfer_date": {
+        "day": 27,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 57,
+        "second": 57
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 57,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 57,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 58,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 58,
+        "check_digit": 5
       },
-      fee_amount: 79.709999,
-      amount_transfer: 695279.839999999967,
-      authentication_code: {
-        value: [
+      "fee_amount": 79.709999,
+      "amount_transfer": 695279.839999999967,
+      "authentication_code": {
+        "value": [
           55,
           -100,
           -35,
@@ -2772,34 +2785,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 28,
-        month: 2,
-        year: 2023,
-        hour: 0,
-        minute: 58,
-        second: 58
+      "transfer_date": {
+        "day": 28,
+        "month": 2,
+        "year": 2023,
+        "hour": 0,
+        "minute": 58,
+        "second": 58
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 58,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 58,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 59,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 59,
+        "check_digit": 7
       },
-      fee_amount: 45.669998,
-      amount_transfer: 699059.719999999972,
-      authentication_code: {
-        value: [
+      "fee_amount": 45.669998,
+      "amount_transfer": 699059.719999999972,
+      "authentication_code": {
+        "value": [
           45,
           -104,
           47,
@@ -2820,34 +2833,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 1,
-        month: 3,
-        year: 2023,
-        hour: 0,
-        minute: 59,
-        second: 59
+      "transfer_date": {
+        "day": 1,
+        "month": 3,
+        "year": 2023,
+        "hour": 0,
+        "minute": 59,
+        "second": 59
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 59,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 59,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 60,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 60,
+        "check_digit": 9
       },
-      fee_amount: 25.530001,
-      amount_transfer: 814356.540000000037,
-      authentication_code: {
-        value: [
+      "fee_amount": 25.530001,
+      "amount_transfer": 814356.540000000037,
+      "authentication_code": {
+        "value": [
           -82,
           65,
           97,
@@ -2868,33 +2881,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 2,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 1,
-        second: 0
+      "transfer_date": {
+        "day": 2,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 1,
+        "second": 0
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 60
+      "source_bank_account": {
+        "account_number": 60,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 61,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 61,
+        "check_digit": 1
       },
-      fee_amount: 86.610001,
-      amount_transfer: 889918.609999999986,
-      authentication_code: {
-        value: [
+      "fee_amount": 86.610001,
+      "amount_transfer": 889918.609999999986,
+      "authentication_code": {
+        "value": [
           110,
           -106,
           103,
@@ -2915,34 +2929,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 3,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 2,
-        second: 1
+      "transfer_date": {
+        "day": 3,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 2,
+        "second": 1
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 61,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 61,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 62,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 62,
+        "check_digit": 3
       },
-      fee_amount: 24.690001,
-      amount_transfer: 259731.119999999995,
-      authentication_code: {
-        value: [
+      "fee_amount": 24.690001,
+      "amount_transfer": 259731.119999999995,
+      "authentication_code": {
+        "value": [
           -62,
           -83,
           83,
@@ -2963,34 +2977,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 4,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 3,
-        second: 2
+      "transfer_date": {
+        "day": 4,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 3,
+        "second": 2
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 62,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 62,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 63,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 63,
+        "check_digit": 5
       },
-      fee_amount: 64.330002,
-      amount_transfer: 337062.070000000007,
-      authentication_code: {
-        value: [
+      "fee_amount": 64.330002,
+      "amount_transfer": 337062.070000000007,
+      "authentication_code": {
+        "value": [
           -53,
           84,
           -121,
@@ -3011,34 +3025,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 5,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 4,
-        second: 3
+      "transfer_date": {
+        "day": 5,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 4,
+        "second": 3
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 63,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 63,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 64,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 64,
+        "check_digit": 7
       },
-      fee_amount: 50.459999,
-      amount_transfer: 623877.079999999958,
-      authentication_code: {
-        value: [
+      "fee_amount": 50.459999,
+      "amount_transfer": 623877.079999999958,
+      "authentication_code": {
+        "value": [
           121,
           -44,
           68,
@@ -3059,34 +3073,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 6,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 5,
-        second: 4
+      "transfer_date": {
+        "day": 6,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 5,
+        "second": 4
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 64,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 64,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 65,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 65,
+        "check_digit": 9
       },
-      fee_amount: 9.34,
-      amount_transfer: 896756.479999999981,
-      authentication_code: {
-        value: [
+      "fee_amount": 9.34,
+      "amount_transfer": 896756.479999999981,
+      "authentication_code": {
+        "value": [
           90,
           -36,
           51,
@@ -3107,33 +3121,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 7,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 6,
-        second: 5
+      "transfer_date": {
+        "day": 7,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 6,
+        "second": 5
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 65
+      "source_bank_account": {
+        "account_number": 65,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 66,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 66,
+        "check_digit": 1
       },
-      fee_amount: 41.57,
-      amount_transfer: 912019.910000000033,
-      authentication_code: {
-        value: [
+      "fee_amount": 41.57,
+      "amount_transfer": 912019.910000000033,
+      "authentication_code": {
+        "value": [
           -109,
           66,
           57,
@@ -3154,34 +3169,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 8,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 7,
-        second: 6
+      "transfer_date": {
+        "day": 8,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 7,
+        "second": 6
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 66,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 66,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 67,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 67,
+        "check_digit": 3
       },
-      fee_amount: 0.93,
-      amount_transfer: 857506.930000000051,
-      authentication_code: {
-        value: [
+      "fee_amount": 0.93,
+      "amount_transfer": 857506.930000000051,
+      "authentication_code": {
+        "value": [
           -7,
           -103,
           80,
@@ -3202,34 +3217,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 9,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 8,
-        second: 7
+      "transfer_date": {
+        "day": 9,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 8,
+        "second": 7
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 67,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 67,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 68,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 68,
+        "check_digit": 5
       },
-      fee_amount: 30.0,
-      amount_transfer: 182993.630000000005,
-      authentication_code: {
-        value: [
+      "fee_amount": 30.0,
+      "amount_transfer": 182993.630000000005,
+      "authentication_code": {
+        "value": [
           -60,
           -5,
           -63,
@@ -3250,34 +3265,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 10,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 9,
-        second: 8
+      "transfer_date": {
+        "day": 10,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 9,
+        "second": 8
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 68,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 68,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 69,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 69,
+        "check_digit": 7
       },
-      fee_amount: 46.02,
-      amount_transfer: 276891.289999999979,
-      authentication_code: {
-        value: [
+      "fee_amount": 46.02,
+      "amount_transfer": 276891.289999999979,
+      "authentication_code": {
+        "value": [
           62,
           -100,
           0,
@@ -3298,34 +3313,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 11,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 10,
-        second: 9
+      "transfer_date": {
+        "day": 11,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 10,
+        "second": 9
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 69,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 69,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 70,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 70,
+        "check_digit": 9
       },
-      fee_amount: 28.66,
-      amount_transfer: 740578.260000000009,
-      authentication_code: {
-        value: [
+      "fee_amount": 28.66,
+      "amount_transfer": 740578.260000000009,
+      "authentication_code": {
+        "value": [
           100,
           -29,
           17,
@@ -3346,33 +3361,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 12,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 11,
-        second: 10
+      "transfer_date": {
+        "day": 12,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 11,
+        "second": 10
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 70
+      "source_bank_account": {
+        "account_number": 70,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 71,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 71,
+        "check_digit": 1
       },
-      fee_amount: 6.02,
-      amount_transfer: 869085.270000000019,
-      authentication_code: {
-        value: [
+      "fee_amount": 6.02,
+      "amount_transfer": 869085.270000000019,
+      "authentication_code": {
+        "value": [
           38,
           -9,
           -106,
@@ -3393,34 +3409,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 13,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 12,
-        second: 11
+      "transfer_date": {
+        "day": 13,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 12,
+        "second": 11
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 71,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 71,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 72,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 72,
+        "check_digit": 3
       },
-      fee_amount: 82.620003,
-      amount_transfer: 519283.440000000002,
-      authentication_code: {
-        value: [
+      "fee_amount": 82.620003,
+      "amount_transfer": 519283.440000000002,
+      "authentication_code": {
+        "value": [
           40,
           66,
           -26,
@@ -3441,34 +3457,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 14,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 13,
-        second: 12
+      "transfer_date": {
+        "day": 14,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 13,
+        "second": 12
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 72,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 72,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 73,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 73,
+        "check_digit": 5
       },
-      fee_amount: 51.59,
-      amount_transfer: 755342.819999999949,
-      authentication_code: {
-        value: [
+      "fee_amount": 51.59,
+      "amount_transfer": 755342.819999999949,
+      "authentication_code": {
+        "value": [
           1,
           60,
           101,
@@ -3489,34 +3505,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 15,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 14,
-        second: 13
+      "transfer_date": {
+        "day": 15,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 14,
+        "second": 13
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 73,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 73,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 74,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 74,
+        "check_digit": 7
       },
-      fee_amount: 55.279999,
-      amount_transfer: 190778.899999999994,
-      authentication_code: {
-        value: [
+      "fee_amount": 55.279999,
+      "amount_transfer": 190778.899999999994,
+      "authentication_code": {
+        "value": [
           22,
           126,
           -45,
@@ -3537,34 +3553,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 16,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 15,
-        second: 14
+      "transfer_date": {
+        "day": 16,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 15,
+        "second": 14
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 74,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 74,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 75,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 75,
+        "check_digit": 9
       },
-      fee_amount: 87.169998,
-      amount_transfer: 529935.239999999991,
-      authentication_code: {
-        value: [
+      "fee_amount": 87.169998,
+      "amount_transfer": 529935.239999999991,
+      "authentication_code": {
+        "value": [
           98,
           -26,
           9,
@@ -3585,33 +3601,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 17,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 16,
-        second: 15
+      "transfer_date": {
+        "day": 17,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 16,
+        "second": 15
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 75
+      "source_bank_account": {
+        "account_number": 75,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 76,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 76,
+        "check_digit": 1
       },
-      fee_amount: 13.26,
-      amount_transfer: 813088.130000000005,
-      authentication_code: {
-        value: [
+      "fee_amount": 13.26,
+      "amount_transfer": 813088.130000000005,
+      "authentication_code": {
+        "value": [
           7,
           101,
           93,
@@ -3632,34 +3649,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 18,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 17,
-        second: 16
+      "transfer_date": {
+        "day": 18,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 17,
+        "second": 16
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 76,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 76,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 77,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 77,
+        "check_digit": 3
       },
-      fee_amount: 99.440002,
-      amount_transfer: 782497.010000000009,
-      authentication_code: {
-        value: [
+      "fee_amount": 99.440002,
+      "amount_transfer": 782497.010000000009,
+      "authentication_code": {
+        "value": [
           -46,
           -118,
           -124,
@@ -3680,34 +3697,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 19,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 18,
-        second: 17
+      "transfer_date": {
+        "day": 19,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 18,
+        "second": 17
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 77,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 77,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 78,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 78,
+        "check_digit": 5
       },
-      fee_amount: 37.099998,
-      amount_transfer: 327273.570000000007,
-      authentication_code: {
-        value: [
+      "fee_amount": 37.099998,
+      "amount_transfer": 327273.570000000007,
+      "authentication_code": {
+        "value": [
           106,
           -24,
           23,
@@ -3728,34 +3745,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 20,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 19,
-        second: 18
+      "transfer_date": {
+        "day": 20,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 19,
+        "second": 18
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 78,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 78,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 79,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 79,
+        "check_digit": 7
       },
-      fee_amount: 29.959999,
-      amount_transfer: 7357.68,
-      authentication_code: {
-        value: [
+      "fee_amount": 29.959999,
+      "amount_transfer": 7357.68,
+      "authentication_code": {
+        "value": [
           38,
           -85,
           37,
@@ -3776,34 +3793,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 21,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 20,
-        second: 19
+      "transfer_date": {
+        "day": 21,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 20,
+        "second": 19
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 79,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 79,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 80,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 80,
+        "check_digit": 9
       },
-      fee_amount: 35.360001,
-      amount_transfer: 339690.770000000019,
-      authentication_code: {
-        value: [
+      "fee_amount": 35.360001,
+      "amount_transfer": 339690.770000000019,
+      "authentication_code": {
+        "value": [
           9,
           19,
           110,
@@ -3824,33 +3841,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 22,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 21,
-        second: 20
+      "transfer_date": {
+        "day": 22,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 21,
+        "second": 20
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 80
+      "source_bank_account": {
+        "account_number": 80,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 81,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 81,
+        "check_digit": 1
       },
-      fee_amount: 80.080002,
-      amount_transfer: 776019.569999999949,
-      authentication_code: {
-        value: [
+      "fee_amount": 80.080002,
+      "amount_transfer": 776019.569999999949,
+      "authentication_code": {
+        "value": [
           -2,
           111,
           75,
@@ -3871,34 +3889,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 23,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 22,
-        second: 21
+      "transfer_date": {
+        "day": 23,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 22,
+        "second": 21
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 81,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 81,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 82,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 82,
+        "check_digit": 3
       },
-      fee_amount: 56.040001,
-      amount_transfer: 937515.849999999977,
-      authentication_code: {
-        value: [
+      "fee_amount": 56.040001,
+      "amount_transfer": 937515.849999999977,
+      "authentication_code": {
+        "value": [
           -43,
           41,
           97,
@@ -3919,34 +3937,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 24,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 23,
-        second: 22
+      "transfer_date": {
+        "day": 24,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 23,
+        "second": 22
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 82,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 82,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 83,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 83,
+        "check_digit": 5
       },
-      fee_amount: 4.39,
-      amount_transfer: 295555.010000000009,
-      authentication_code: {
-        value: [
+      "fee_amount": 4.39,
+      "amount_transfer": 295555.010000000009,
+      "authentication_code": {
+        "value": [
           72,
           39,
           52,
@@ -3967,34 +3985,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 25,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 24,
-        second: 23
+      "transfer_date": {
+        "day": 25,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 24,
+        "second": 23
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 83,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 83,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 84,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 84,
+        "check_digit": 7
       },
-      fee_amount: 80.260002,
-      amount_transfer: 30935.75,
-      authentication_code: {
-        value: [
+      "fee_amount": 80.260002,
+      "amount_transfer": 30935.75,
+      "authentication_code": {
+        "value": [
           122,
           -55,
           106,
@@ -4015,34 +4033,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 26,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 25,
-        second: 24
+      "transfer_date": {
+        "day": 26,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 25,
+        "second": 24
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 84,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 84,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 85,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 85,
+        "check_digit": 9
       },
-      fee_amount: 31.73,
-      amount_transfer: 178835.339999999997,
-      authentication_code: {
-        value: [
+      "fee_amount": 31.73,
+      "amount_transfer": 178835.339999999997,
+      "authentication_code": {
+        "value": [
           42,
           28,
           21,
@@ -4063,33 +4081,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 27,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 26,
-        second: 25
+      "transfer_date": {
+        "day": 27,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 26,
+        "second": 25
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 85
+      "source_bank_account": {
+        "account_number": 85,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 86,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 86,
+        "check_digit": 1
       },
-      fee_amount: 96.849998,
-      amount_transfer: 591463.680000000051,
-      authentication_code: {
-        value: [
+      "fee_amount": 96.849998,
+      "amount_transfer": 591463.680000000051,
+      "authentication_code": {
+        "value": [
           93,
           83,
           -50,
@@ -4110,34 +4129,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 28,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 27,
-        second: 26
+      "transfer_date": {
+        "day": 28,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 27,
+        "second": 26
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 86,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 86,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 87,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 87,
+        "check_digit": 3
       },
-      fee_amount: 51.279999,
-      amount_transfer: 781565.510000000009,
-      authentication_code: {
-        value: [
+      "fee_amount": 51.279999,
+      "amount_transfer": 781565.510000000009,
+      "authentication_code": {
+        "value": [
           53,
           -1,
           74,
@@ -4158,34 +4177,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 29,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 28,
-        second: 27
+      "transfer_date": {
+        "day": 29,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 28,
+        "second": 27
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 87,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 87,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 88,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 88,
+        "check_digit": 5
       },
-      fee_amount: 3.98,
-      amount_transfer: 815972.430000000051,
-      authentication_code: {
-        value: [
+      "fee_amount": 3.98,
+      "amount_transfer": 815972.430000000051,
+      "authentication_code": {
+        "value": [
           -8,
           -119,
           80,
@@ -4206,34 +4225,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 30,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 29,
-        second: 28
+      "transfer_date": {
+        "day": 30,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 29,
+        "second": 28
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 88,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 88,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 89,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 89,
+        "check_digit": 7
       },
-      fee_amount: 18.91,
-      amount_transfer: 564798.689999999944,
-      authentication_code: {
-        value: [
+      "fee_amount": 18.91,
+      "amount_transfer": 564798.689999999944,
+      "authentication_code": {
+        "value": [
           -26,
           9,
           -29,
@@ -4254,34 +4273,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 31,
-        month: 3,
-        year: 2023,
-        hour: 1,
-        minute: 30,
-        second: 29
+      "transfer_date": {
+        "day": 31,
+        "month": 3,
+        "year": 2023,
+        "hour": 1,
+        "minute": 30,
+        "second": 29
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 89,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 89,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 90,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 90,
+        "check_digit": 9
       },
-      fee_amount: 28.57,
-      amount_transfer: 642604.400000000023,
-      authentication_code: {
-        value: [
+      "fee_amount": 28.57,
+      "amount_transfer": 642604.400000000023,
+      "authentication_code": {
+        "value": [
           16,
           -22,
           45,
@@ -4302,33 +4321,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 1,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 31,
-        second: 30
+      "transfer_date": {
+        "day": 1,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 31,
+        "second": 30
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 90
+      "source_bank_account": {
+        "account_number": 90,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 91,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 91,
+        "check_digit": 1
       },
-      fee_amount: 58.73,
-      amount_transfer: 528650.589999999967,
-      authentication_code: {
-        value: [
+      "fee_amount": 58.73,
+      "amount_transfer": 528650.589999999967,
+      "authentication_code": {
+        "value": [
           72,
           -29,
           -108,
@@ -4349,34 +4369,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 2,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 32,
-        second: 31
+      "transfer_date": {
+        "day": 2,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 32,
+        "second": 31
       },
-      source_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "source_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      source_bank_account: {
-        account_number: 91,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 91,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "destination_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      destination_bank_account: {
-        account_number: 92,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 92,
+        "check_digit": 3
       },
-      fee_amount: 31.76,
-      amount_transfer: 341785.0,
-      authentication_code: {
-        value: [
+      "fee_amount": 31.76,
+      "amount_transfer": 341785.0,
+      "authentication_code": {
+        "value": [
           94,
           -94,
           -52,
@@ -4397,34 +4417,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 3,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 33,
-        second: 32
+      "transfer_date": {
+        "day": 3,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 33,
+        "second": 32
       },
-      source_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "source_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      source_bank_account: {
-        account_number: 92,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 92,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "destination_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      destination_bank_account: {
-        account_number: 93,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 93,
+        "check_digit": 5
       },
-      fee_amount: 35.959999,
-      amount_transfer: 835445.560000000056,
-      authentication_code: {
-        value: [
+      "fee_amount": 35.959999,
+      "amount_transfer": 835445.560000000056,
+      "authentication_code": {
+        "value": [
           -120,
           52,
           -59,
@@ -4445,34 +4465,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 4,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 34,
-        second: 33
+      "transfer_date": {
+        "day": 4,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 34,
+        "second": 33
       },
-      source_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "source_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      source_bank_account: {
-        account_number: 93,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 93,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "destination_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      destination_bank_account: {
-        account_number: 94,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 94,
+        "check_digit": 7
       },
-      fee_amount: 87.919998,
-      amount_transfer: 873375.719999999972,
-      authentication_code: {
-        value: [
+      "fee_amount": 87.919998,
+      "amount_transfer": 873375.719999999972,
+      "authentication_code": {
+        "value": [
           4,
           -40,
           -67,
@@ -4493,34 +4513,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 5,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 35,
-        second: 34
+      "transfer_date": {
+        "day": 5,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 35,
+        "second": 34
       },
-      source_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "source_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      source_bank_account: {
-        account_number: 94,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 94,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "destination_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      destination_bank_account: {
-        account_number: 95,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 95,
+        "check_digit": 9
       },
-      fee_amount: 82.559998,
-      amount_transfer: 94726.509999999995,
-      authentication_code: {
-        value: [
+      "fee_amount": 82.559998,
+      "amount_transfer": 94726.509999999995,
+      "authentication_code": {
+        "value": [
           99,
           -87,
           94,
@@ -4541,33 +4561,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 6,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 36,
-        second: 35
+      "transfer_date": {
+        "day": 6,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 36,
+        "second": 35
       },
-      source_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "source_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      source_bank_account: {
-        account_number: 95
+      "source_bank_account": {
+        "account_number": 95,
+        "check_digit": 0
       },
-      destination_bank: {
-        name: "Banrisul",
-        bank_code: 4041
+      "destination_bank": {
+        "name": "Banrisul",
+        "bank_code": 4041
       },
-      destination_bank_account: {
-        account_number: 96,
-        check_digit: 1
+      "destination_bank_account": {
+        "account_number": 96,
+        "check_digit": 1
       },
-      fee_amount: 22.110001,
-      amount_transfer: 696127.859999999986,
-      authentication_code: {
-        value: [
+      "fee_amount": 22.110001,
+      "amount_transfer": 696127.859999999986,
+      "authentication_code": {
+        "value": [
           26,
           87,
           -85,
@@ -4588,34 +4609,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 7,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 37,
-        second: 36
+      "transfer_date": {
+        "day": 7,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 37,
+        "second": 36
       },
-      source_bank: {
-        name: "Bradesco",
-        bank_code: 5237
+      "source_bank": {
+        "name": "Bradesco",
+        "bank_code": 5237
       },
-      source_bank_account: {
-        account_number: 96,
-        check_digit: 2
+      "source_bank_account": {
+        "account_number": 96,
+        "check_digit": 2
       },
-      destination_bank: {
-        name: "Citibank",
-        bank_code: 745
+      "destination_bank": {
+        "name": "Citibank",
+        "bank_code": 745
       },
-      destination_bank_account: {
-        account_number: 97,
-        check_digit: 3
+      "destination_bank_account": {
+        "account_number": 97,
+        "check_digit": 3
       },
-      fee_amount: 41.330002,
-      amount_transfer: 245370.890000000014,
-      authentication_code: {
-        value: [
+      "fee_amount": 41.330002,
+      "amount_transfer": 245370.890000000014,
+      "authentication_code": {
+        "value": [
           -112,
           -8,
           -25,
@@ -4636,34 +4657,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 8,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 38,
-        second: 37
+      "transfer_date": {
+        "day": 8,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 38,
+        "second": 37
       },
-      source_bank: {
-        name: "Ita\u00FA",
-        bank_code: 4048
+      "source_bank": {
+        "name": "Itaú",
+        "bank_code": 4048
       },
-      source_bank_account: {
-        account_number: 97,
-        check_digit: 4
+      "source_bank_account": {
+        "account_number": 97,
+        "check_digit": 4
       },
-      destination_bank: {
-        name: "J.P. Morgan S.A.",
-        bank_code: 7376
+      "destination_bank": {
+        "name": "J.P. Morgan S.A.",
+        "bank_code": 7376
       },
-      destination_bank_account: {
-        account_number: 98,
-        check_digit: 5
+      "destination_bank_account": {
+        "account_number": 98,
+        "check_digit": 5
       },
-      fee_amount: 30.77,
-      amount_transfer: 380837.640000000014,
-      authentication_code: {
-        value: [
+      "fee_amount": 30.77,
+      "amount_transfer": 380837.640000000014,
+      "authentication_code": {
+        "value": [
           8,
           -4,
           -32,
@@ -4684,34 +4705,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 9,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 39,
-        second: 38
+      "transfer_date": {
+        "day": 9,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 39,
+        "second": 38
       },
-      source_bank: {
-        name: "Nubank",
-        bank_code: 260
+      "source_bank": {
+        "name": "Nubank",
+        "bank_code": 260
       },
-      source_bank_account: {
-        account_number: 98,
-        check_digit: 6
+      "source_bank_account": {
+        "account_number": 98,
+        "check_digit": 6
       },
-      destination_bank: {
-        name: "Santander",
-        bank_code: 3008
+      "destination_bank": {
+        "name": "Santander",
+        "bank_code": 3008
       },
-      destination_bank_account: {
-        account_number: 99,
-        check_digit: 7
+      "destination_bank_account": {
+        "account_number": 99,
+        "check_digit": 7
       },
-      fee_amount: 99.190002,
-      amount_transfer: 448699.270000000019,
-      authentication_code: {
-        value: [
+      "fee_amount": 99.190002,
+      "amount_transfer": 448699.270000000019,
+      "authentication_code": {
+        "value": [
           -31,
           -108,
           -24,
@@ -4732,34 +4753,34 @@
       }
     },
     {
-      transfer_date: {
-        day: 10,
-        month: 4,
-        year: 2023,
-        hour: 1,
-        minute: 40,
-        second: 39
+      "transfer_date": {
+        "day": 10,
+        "month": 4,
+        "year": 2023,
+        "hour": 1,
+        "minute": 40,
+        "second": 39
       },
-      source_bank: {
-        name: "ABN AMRO S.A.",
-        bank_code: 9313
+      "source_bank": {
+        "name": "ABN AMRO S.A.",
+        "bank_code": 9313
       },
-      source_bank_account: {
-        account_number: 99,
-        check_digit: 8
+      "source_bank_account": {
+        "account_number": 99,
+        "check_digit": 8
       },
-      destination_bank: {
-        name: "Banco do Brasil",
-        bank_code: 1
+      "destination_bank": {
+        "name": "Banco do Brasil",
+        "bank_code": 1
       },
-      destination_bank_account: {
-        account_number: 100,
-        check_digit: 9
+      "destination_bank_account": {
+        "account_number": 100,
+        "check_digit": 9
       },
-      fee_amount: 61.080002,
-      amount_transfer: 850321.859999999986,
-      authentication_code: {
-        value: [
+      "fee_amount": 61.080002,
+      "amount_transfer": 850321.859999999986,
+      "authentication_code": {
+        "value": [
           -60,
           -93,
           6,
