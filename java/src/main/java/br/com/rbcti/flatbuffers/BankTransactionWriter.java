@@ -28,20 +28,18 @@ import br.com.rbcti.model.Bank;
  * the data in a binary file.
  *
  * @author Renato Cunha
+ * @version 1.0 28/07/2023
  *
  */
 public class BankTransactionWriter {
 
     public static boolean DEBUG = true;
 
-    private int TOTAL_TRANSACTION;
-
-    private LocalDateTime baseLocalDateTime = LocalDateTime.of(2023, 1, 1, 0, 0, 0);
-
     private FlatBufferBuilder builder;
 
-    private List<Bank> banks;
-    private int[] banksOffsets;
+    // Control fields for transaction generation
+    private int TOTAL_TRANSACTION;
+    private LocalDateTime baseLocalDateTime = LocalDateTime.of(2023, 1, 1, 0, 0, 0);
 
     private float[] randomFeeAmount;
     private double[] randomAmountTransfert;
@@ -49,6 +47,9 @@ public class BankTransactionWriter {
 
     private int bankIndex = 0;
     private int checkDigit = 0;
+
+    private List<Bank> banks;
+    private int[] banksOffsets;
 
     public BankTransactionWriter() {
         this(5);
