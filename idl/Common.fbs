@@ -1,0 +1,12 @@
+// Example IDL file for our Common schema.
+
+namespace br.com.rbcti.flatbuffers.tb;
+
+struct DateTimeFbs {
+    day: uint8;
+    month: uint8;
+    year: uint16;
+    hour: uint8;
+    minute: uint8;
+    second: uint8;
+}

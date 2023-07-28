@@ -1,0 +1,38 @@
+// Example IDL file for our Transaction banking's schema.
+
+include "Common.fbs";
+
+namespace br.com.rbcti.flatbuffers.tb;
+
+table BankFbs {
+    name: string;
+    bank_code: int32;
+}
+
+table BankAccountFbs {
+    account_number: int32;
+    check_digit: uint8;
+}
+
+struct AuthenticationCodeFbs {
+    value: [byte:16];
+}
+
+table FundTransferFbs {
+    transfer_date: DateTimeFbs;
+    source_bank: BankFbs;
+    source_bank_account: BankAccountFbs;
+    destination_bank: BankFbs;
+    destination_bank_account: BankAccountFbs;
+    fee_amount: float32;
+    amount_transfer: float64;
+    authentication_code: AuthenticationCodeFbs;
+}
+
+table BankTransactionFbs {
+  transactions: [FundTransferFbs];
+}
+
+file_identifier "BANK";
+
+root_type BankTransactionFbs;
