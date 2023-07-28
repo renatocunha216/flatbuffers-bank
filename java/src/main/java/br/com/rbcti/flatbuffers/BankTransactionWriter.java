@@ -205,6 +205,8 @@ public class BankTransactionWriter {
         try {
             Files.write(path, transactionsData);
 
+            System.out.println(path.toString() + " file was successfully created.");
+
         } catch (IOException e) {
             e.printStackTrace();
         }
