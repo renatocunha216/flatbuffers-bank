@@ -330,7 +330,7 @@ public class BankTransactionWriter {
         DEBUG = false;
         CHECK = true;
 
-        final int TOTAL = 100;
+        final int TOTAL = 1000000;
 
         System.out.println("Start test.");
         System.out.println("Check data        : " + CHECK);
