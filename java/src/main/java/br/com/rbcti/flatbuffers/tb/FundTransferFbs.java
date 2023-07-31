@@ -39,10 +39,11 @@ public final class FundTransferFbs extends Table {
   public br.com.rbcti.flatbuffers.tb.BankAccountFbs destinationBankAccount(br.com.rbcti.flatbuffers.tb.BankAccountFbs obj) { int o = __offset(12); return o != 0 ? obj.__assign(__indirect(o + bb_pos), bb) : null; }
   public float feeAmount() { int o = __offset(14); return o != 0 ? bb.getFloat(o + bb_pos) : 0.0f; }
   public double amountTransfer() { int o = __offset(16); return o != 0 ? bb.getDouble(o + bb_pos) : 0.0; }
+  public byte status() { int o = __offset(18); return o != 0 ? bb.get(o + bb_pos) : 0; }
   public br.com.rbcti.flatbuffers.tb.AuthenticationCodeFbs authenticationCode() { return authenticationCode(new br.com.rbcti.flatbuffers.tb.AuthenticationCodeFbs()); }
-  public br.com.rbcti.flatbuffers.tb.AuthenticationCodeFbs authenticationCode(br.com.rbcti.flatbuffers.tb.AuthenticationCodeFbs obj) { int o = __offset(18); return o != 0 ? obj.__assign(o + bb_pos, bb) : null; }
+  public br.com.rbcti.flatbuffers.tb.AuthenticationCodeFbs authenticationCode(br.com.rbcti.flatbuffers.tb.AuthenticationCodeFbs obj) { int o = __offset(20); return o != 0 ? obj.__assign(o + bb_pos, bb) : null; }
 
-  public static void startFundTransferFbs(FlatBufferBuilder builder) { builder.startTable(8); }
+  public static void startFundTransferFbs(FlatBufferBuilder builder) { builder.startTable(9); }
   public static void addTransferDate(FlatBufferBuilder builder, int transferDateOffset) { builder.addStruct(0, transferDateOffset, 0); }
   public static void addSourceBank(FlatBufferBuilder builder, int sourceBankOffset) { builder.addOffset(1, sourceBankOffset, 0); }
   public static void addSourceBankAccount(FlatBufferBuilder builder, int sourceBankAccountOffset) { builder.addOffset(2, sourceBankAccountOffset, 0); }
@@ -50,7 +51,8 @@ public final class FundTransferFbs extends Table {
   public static void addDestinationBankAccount(FlatBufferBuilder builder, int destinationBankAccountOffset) { builder.addOffset(4, destinationBankAccountOffset, 0); }
   public static void addFeeAmount(FlatBufferBuilder builder, float feeAmount) { builder.addFloat(5, feeAmount, 0.0f); }
   public static void addAmountTransfer(FlatBufferBuilder builder, double amountTransfer) { builder.addDouble(6, amountTransfer, 0.0); }
-  public static void addAuthenticationCode(FlatBufferBuilder builder, int authenticationCodeOffset) { builder.addStruct(7, authenticationCodeOffset, 0); }
+  public static void addStatus(FlatBufferBuilder builder, byte status) { builder.addByte(7, status, 0); }
+  public static void addAuthenticationCode(FlatBufferBuilder builder, int authenticationCodeOffset) { builder.addStruct(8, authenticationCodeOffset, 0); }
   public static int endFundTransferFbs(FlatBufferBuilder builder) {
     int o = builder.endTable();
     return o;

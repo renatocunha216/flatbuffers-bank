@@ -19,6 +19,7 @@ import br.com.rbcti.flatbuffers.tb.BankFbs;
 import br.com.rbcti.flatbuffers.tb.BankTransactionFbs;
 import br.com.rbcti.flatbuffers.tb.DateTimeFbs;
 import br.com.rbcti.flatbuffers.tb.FundTransferFbs;
+import br.com.rbcti.flatbuffers.tb.Status;
 import br.com.rbcti.model.Bank;
 
 /**
@@ -33,7 +34,8 @@ import br.com.rbcti.model.Bank;
  */
 public class BankTransactionWriter {
 
-    public static boolean DEBUG = true;
+    public static boolean DEBUG = false;
+    public static boolean CHECK = true;
 
     private FlatBufferBuilder builder;
 
@@ -117,6 +119,7 @@ public class BankTransactionWriter {
             FundTransferFbs.addDestinationBankAccount(builder, destinationBankAccountOffset);
             FundTransferFbs.addFeeAmount(builder, randomFeeAmount[c]);
             FundTransferFbs.addAmountTransfer(builder, randomAmountTransfert[c]);
+            FundTransferFbs.addStatus(builder, Status.CONFIRMED);
             FundTransferFbs.addAuthenticationCode(builder, AuthenticationCodeFbs.createAuthenticationCodeFbs(builder, randomAuthenticationCode[c]));
             fundTransferOffsets[c] = FundTransferFbs.endFundTransferFbs(builder);
         }
@@ -202,11 +205,13 @@ public class BankTransactionWriter {
         byte[] transactionsData = this.builder.sizedByteArray();
 
         Path path = Path.of(System.getProperty("user.home"), "bankTransaction.bin");
+        //Path path = Path.of("F:\\", "bankTransaction.bin");
 
         try {
             Files.write(path, transactionsData);
 
             System.out.println(path.toString() + " file was successfully created.");
+            System.out.println("File lenght             : " +  String.format("%,d", path.toFile().length()) + " bytes");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -218,6 +223,7 @@ public class BankTransactionWriter {
         resetControlIndex();
 
         Path path = Path.of(System.getProperty("user.home"), "bankTransaction.bin");
+        //Path path = Path.of("F:\\", "bankTransaction.bin");
 
         File transactionsFile = path.toFile();
 
@@ -248,7 +254,12 @@ public class BankTransactionWriter {
                 BankAccountFbs destinationBankAccount = fundTransfer.destinationBankAccount();
                 float feeAmount = fundTransfer.feeAmount();
                 double amountTransfer = fundTransfer.amountTransfer();
+                byte transferStatus = fundTransfer.status();
                 AuthenticationCodeFbs authenticationCode = fundTransfer.authenticationCode();
+
+                if (!CHECK) {
+                    continue;
+                }
 
                 LocalDateTime dateTimeRef = getNextLocalDateTime(c);
 
@@ -288,6 +299,10 @@ public class BankTransactionWriter {
                     throw new Exception("Transaction " + c + ". Amount transfer validation error.");
                 }
 
+                if (Status.CONFIRMED != transferStatus) {
+                    throw new Exception("Transaction " + c + ". Transfer status validation error.");
+                }
+
                 for (int x = 0; x < 16; x++) {
                     if (authenticationCode.value(x) != randomAuthenticationCode[c][x]) {
                         throw new Exception("Transaction " + c + ". Authentication code validation error.");
@@ -313,13 +328,15 @@ public class BankTransactionWriter {
     public static void main(String[] args) {
 
         DEBUG = false;
+        CHECK = true;
 
-        final int TOTAL = 10_000;
+        final int TOTAL = 100;
 
         System.out.println("Start test.");
+        System.out.println("Check data        : " + CHECK);
+        System.out.println("Total transactions: " + String.format("%,d", TOTAL));
 
         BankTransactionWriter writer = new BankTransactionWriter(TOTAL);
-
 
         long startTime1 = System.currentTimeMillis();
         writer.buildBankBuffer();
@@ -334,8 +351,13 @@ public class BankTransactionWriter {
         writer.readAndCheck();
         long endTime2 = System.currentTimeMillis();
 
-        System.out.println("Buffer build time: " + (endTime1 - startTime1) + " ms");
-        System.out.println("Reading and checking time: " + (endTime2 - startTime2) + " ms");
+        System.out.println("Buffer build time       : " + (endTime1 - startTime1) + " ms");
+
+        if (CHECK) {
+            System.out.println("Read time and check time: " + (endTime2 - startTime2) + " ms");
+        } else {
+            System.out.println("Reading time            : " + (endTime2 - startTime2) + " ms");
+        }
 
         System.out.println("End test.");
     }

@@ -4,6 +4,8 @@ include "Common.fbs";
 
 namespace br.com.rbcti.flatbuffers.tb;
 
+enum Status : byte { PENDING = 0, CONFIRMED = 1, CANCELED = 2 }
+
 table BankFbs {
     name: string;
     bank_code: int32;
@@ -26,6 +28,7 @@ table FundTransferFbs {
     destination_bank_account: BankAccountFbs;
     fee_amount: float32;
     amount_transfer: float64;
+    status: Status = PENDING;
     authentication_code: AuthenticationCodeFbs;
 }
 
@@ -34,5 +37,6 @@ table BankTransactionFbs {
 }
 
 file_identifier "BANK";
+file_extension "bin";
 
 root_type BankTransactionFbs;
