@@ -5,7 +5,7 @@
 Exemplo de uso da biblioteca [FlatBuffers](https://flatbuffers.dev/) para criar
 um arquivo binário com dados simulados de transações bancárias.
 
-FlatBuffers é uma biblioteca Open Source multi plataforma, criada pelo Google, para serializar
+FlatBuffers é uma biblioteca Open Source multi plataforma, criada pelo Google, para **serializar**
 dados de forma eficiente e performática.
 
 FlatBuffers suporta as seguintes linguagens de programação: C++, C#, C, Go, Java, Kotlin,
