@@ -55,6 +55,8 @@ que cria um arquivo binário com os dados construídos pelo FlatBuffers.
 
 Executando o método **main** da classe BankTransactionWriter temos o seguinte resultado.
 
+**Maven** `mvn compile exec:java -Dexec.mainClass="br.com.rbcti.flatbuffers.BankTransactionWriter"`
+
 Com verificação dos dados.
 ```
 Start test.
