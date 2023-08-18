@@ -330,7 +330,7 @@ public class BankTransactionWriter {
         DEBUG = false;
         CHECK = true;
 
-        final int TOTAL = 1000000;
+        final int TOTAL = 1_000_000;
 
         System.out.println("Start test.");
         System.out.println("Check data        : " + CHECK);
@@ -342,9 +342,9 @@ public class BankTransactionWriter {
         writer.buildBankBuffer();
         int dataOffset = writer.createBankTransaction();
         writer.addTransactionsAndFinish(dataOffset);
+        writer.saveToFile();
         long endTime1 = System.currentTimeMillis();
 
-        writer.saveToFile();
         writer.clearBuffer();
 
         long startTime2 = System.currentTimeMillis();
