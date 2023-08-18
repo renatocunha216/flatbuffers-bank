@@ -83,3 +83,5 @@ Buffer build time       : 1622 ms
 Reading time            : 539 ms
 End test.
 ```
+
+Para propósito de comparação veja o exemplo [protobuf-bank](https://github.com/renatocunha216/protobuf-bank) que utiliza a bilbioteca Protocol Buffers.
