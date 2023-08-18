@@ -57,6 +57,10 @@ Executando o método **main** da classe BankTransactionWriter temos o seguinte r
 
 **Maven** `mvn compile exec:java -Dexec.mainClass="br.com.rbcti.flatbuffers.BankTransactionWriter"`
 
+**Processor:** Intel Core i7-3632QM CPU @ 2.20GHz<br>
+**OS:** Windows 7 Professional 64 bits<br>
+**JVM:** OpenJDK Runtime Environment Temurin-11.0.19+7 (build 11.0.19+7)<br>
+
 Com verificação dos dados.
 ```
 Start test.
@@ -64,8 +68,8 @@ Check data        : true
 Total transactions: 1.000.000
 C:\Users\renato\bankTransaction.bin file was successfully created.
 File lenght             : 90.400.040 bytes
-Buffer build time       : 1241 ms
-Read time and check time: 1274 ms
+Buffer build time       : 1635 ms
+Read time and check time: 1302 ms
 End test.
 ```
 Sem a verificação dos dados.
@@ -74,9 +78,8 @@ Start test.
 Check data        : false
 Total transactions: 1.000.000
 C:\Users\renato\bankTransaction.bin file was successfully created.
-File lenght             : 90.400.040 bytes
-Buffer build time       : 1249 ms
-Reading time            : 532 ms
+File lenght             : 90.400.144 bytes
+Buffer build time       : 1622 ms
+Reading time            : 539 ms
 End test.
-
 ```
