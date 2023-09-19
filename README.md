@@ -60,6 +60,7 @@ Executando o método **main** da classe BankTransactionWriter temos o seguinte r
 **Processor:** Intel Core i7-3632QM CPU @ 2.20GHz<br>
 **OS:** Windows 7 Professional 64 bits<br>
 **JVM:** OpenJDK Runtime Environment Temurin-11.0.19+7 (build 11.0.19+7)<br>
+**HDD:** 5400 rpm<br>
 
 Com verificação dos dados.
 ```
@@ -81,6 +82,34 @@ C:\Users\renato\bankTransaction.bin file was successfully created.
 File lenght             : 90.400.144 bytes
 Buffer build time       : 1622 ms
 Reading time            : 539 ms
+End test.
+```
+
+**Processor:** Intel(R) Core(TM) i7-12700H<br>
+**OS:** Windows 11 Pro 22H2<br>
+**JVM:** OpenJDK Runtime Environment Temurin-17.0.8+7 (build 17.0.8+7)<br>
+**SSD:** NVMe
+
+Com verificação dos dados.
+```
+Start test.
+Check data        : true
+Total transactions: 1.000.000
+C:\Users\rbcun\bankTransaction.bin file was successfully created.
+File lenght             : 90.399.976 bytes
+Buffer build time       : 563 ms
+Read time and check time: 385 ms
+End test.
+```
+Sem a verificação dos dados.
+```
+Start test.
+Check data        : false
+Total transactions: 1.000.000
+C:\Users\rbcun\bankTransaction.bin file was successfully created.
+File lenght             : 90.400.112 bytes
+Buffer build time       : 554 ms
+Reading time            : 191 ms
 End test.
 ```
 
