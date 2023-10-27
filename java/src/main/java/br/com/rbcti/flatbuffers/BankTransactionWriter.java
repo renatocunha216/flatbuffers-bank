@@ -13,13 +13,13 @@ import java.util.Random;
 
 import com.google.flatbuffers.FlatBufferBuilder;
 
-import br.com.rbcti.flatbuffers.tb.AuthenticationCodeFbs;
-import br.com.rbcti.flatbuffers.tb.BankAccountFbs;
-import br.com.rbcti.flatbuffers.tb.BankFbs;
-import br.com.rbcti.flatbuffers.tb.BankTransactionFbs;
-import br.com.rbcti.flatbuffers.tb.DateTimeFbs;
-import br.com.rbcti.flatbuffers.tb.FundTransferFbs;
-import br.com.rbcti.flatbuffers.tb.Status;
+import flatbuffers.AuthenticationCodeFbs;
+import flatbuffers.BankAccountFbs;
+import flatbuffers.BankFbs;
+import flatbuffers.BankTransactionFbs;
+import flatbuffers.DateTimeFbs;
+import flatbuffers.FundTransferFbs;
+import flatbuffers.Status;
 import br.com.rbcti.model.Bank;
 
 /**

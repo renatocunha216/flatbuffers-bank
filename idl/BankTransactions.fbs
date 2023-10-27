@@ -2,7 +2,10 @@
 
 include "Common.fbs";
 
-namespace br.com.rbcti.flatbuffers.tb;
+//namespace br.com.rbcti.flatbuffers.tb;
+
+// For C++
+namespace flatbuffers;
 
 enum Status : byte { PENDING = 0, CONFIRMED = 1, CANCELED = 2 }
 
