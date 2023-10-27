@@ -45,8 +45,21 @@ que serão responsáveis pela escrita e leitura dos dados na linguagem de
 programação de sua escolha.
 
 Exemplo:<br>
-`flatc --java Common.fbs BankTransactions.fbs`
+`flatc --java Common.fbs BankTransactions.fbs`<br>
+`flatc --cpp Common.fbs BankTransactions.fbs`
 
+### Ferramentas utilizadas
+
+**Flatbuffers**<br>
+- [flatc](https://github.com/google/flatbuffers/releases) version 23.5.26<br>
+
+**Java**<br>
+- [Apache Maven](https://maven.apache.org/) 3.9.4<br>
+- [OpenJDK](https://adoptium.net/) Runtime Environment Temurin-11.0.20+8<br>
+
+**C++**<br>
+- [MinGW-W64](https://www.mingw-w64.org/) - GCC version 8.1.0<br>
+- [cmake](https://cmake.org/) 3.23.1<br>
 
 ### Exemplo de uso
 
