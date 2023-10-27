@@ -14,5 +14,5 @@
 
 int main() {
     std::cout << "Hello Flatbuffers!";
-	return 0;
+    return 0;
 }
