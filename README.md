@@ -126,4 +126,32 @@ Reading time            : 191 ms
 End test.
 ```
 
+**Processor:** Intel(R) Core(TM) i7-13700K<br>
+**OS:** Windows 11 Pro 22H2<br>
+**JVM:** OpenJDK Runtime Environment Temurin-17.0.10+7 (build 17.0.10+7)<br>
+**SSD:** NVMe
+
+Com verificação dos dados.
+```
+Start test.
+Check data        : true
+Total transactions: 1.000.000
+C:\Users\rbcunha\bankTransaction.bin file was successfully created.
+File lenght             : 90.400.056 bytes
+Buffer build time       : 375 ms
+Read time and check time: 391 ms
+End test.
+```
+Sem a verificação dos dados.
+```
+Start test.
+Check data        : false
+Total transactions: 1.000.000
+C:\Users\rbcunha\bankTransaction.bin file was successfully created.
+File lenght             : 90.400.168 bytes
+Buffer build time       : 392 ms
+Reading time            : 140 ms
+End test.
+```
+
 Para propósito de comparação veja o exemplo [protobuf-bank](https://github.com/renatocunha216/protobuf-bank) que utiliza a bilbioteca Protocol Buffers.
