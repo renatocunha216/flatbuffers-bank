@@ -58,7 +58,7 @@ Exemplo:<br>
 - [OpenJDK](https://adoptium.net/) Runtime Environment Temurin-11.0.20+8<br>
 
 **C++**<br>
-- [MinGW-W64](https://www.mingw-w64.org/) - GCC version 8.1.0<br>
+- [MinGW-W64](https://www.mingw-w64.org/) - GCC version 13.1.0-<br>
 - [cmake](https://cmake.org/) 3.23.1<br>
 
 ### Exemplo de uso

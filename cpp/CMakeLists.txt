@@ -6,7 +6,7 @@ project(bank-transaction-reader)
 set(CMAKE_CXX_STANDARD 11)
 
 # -w disable warning
-SET(GCC_COVERAGE_COMPILE_FLAGS "-w")
+#SET(GCC_COVERAGE_COMPILE_FLAGS "-w")
 
 add_definitions(${GCC_COVERAGE_COMPILE_FLAGS})
 
