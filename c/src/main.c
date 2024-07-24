@@ -23,16 +23,12 @@
 #undef ns
 #define ns(x) FLATBUFFERS_WRAP_NAMESPACE(flatbuffers, x) // Specified in the schema.
 
-void loadBanks(Bank* bank) {
-	Bank b = {code: 9313, name: "ABN AMRO S.A."};
-}
-
 
 int main() {
 
 	//AllBanks banks;
 
-    printf("Hello Flatbuffers!");
+    printf("Hello Flatbuffers!\n");
 
     uint8_t *buf;
     size_t size;
@@ -44,6 +40,11 @@ int main() {
     flatcc_builder_init(B);
 
 	ns(DateTimeFbs_create(B, 1, 2, 3, 4 , 5 , 6));
+
+	for (int c = 0; c < TOTAL_BANKS; c++) {
+		printf("%04d    %s\n", allBanks[c].code, allBanks[c].name);
+	}
+
 
 	// TODO: .....
 
