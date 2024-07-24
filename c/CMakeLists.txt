@@ -10,6 +10,20 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_definitions(${GCC_COVERAGE_COMPILE_FLAGS})
 
+
+if(CMAKE_BUILD_TYPE STREQUAL "Release")
+  message(STATUS "**RELEASE** Mode")
+  set(FLATBUFFERS_LIB ${CMAKE_CURRENT_SOURCE_DIR}/lib/libflatccrt.a)
+endif()
+
+if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+  message(STATUS "**DEBUG** Mode")
+  set(FLATBUFFERS_LIB ${CMAKE_CURRENT_SOURCE_DIR}/lib/libflatccrt_d.a)  
+endif()
+
+message(STATUS "Library: ")
+message(STATUS ${FLATBUFFERS_LIB})
+
 #Bring the headers
 include_directories(include)
  
@@ -24,4 +38,4 @@ src/main.c
 add_executable(bank-transaction-writer ${SOURCES})
 
 # Vincule o executável com a biblioteca Flatbuffers
-#target_link_libraries(bank-transaction-writer ${FLATBUFFERS_LIB})
+target_link_libraries(bank-transaction-writer ${FLATBUFFERS_LIB})
